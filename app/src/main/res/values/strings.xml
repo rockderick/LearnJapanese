@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Aprende Hiragana</string>
+
+    <string name="vocal_A">a</string>
+    <string name="vocal_I">i</string>
+    <string name="vocal_U">u</string>
+    <string name="vocal_E">e</string>
+    <string name="vocal_O">o</string>
+
+    <string name="consonant_K">k</string>
+    <string name="consonant_S">s</string>
+    <string name="consonant_T">t</string>
+    <string name="consonant_N">n</string>
+    <string name="consonant_H">h</string>
+    <string name="consonant_M">m</string>
+    <string name="consonant_Y">y</string>
+    <string name="consonant_R">r</string>
+    <string name="consonant_W">w</string>
+    <string name="consonant_NN">N</string>
+
+
+    <string name="hiragana_A">あ</string>
+    <string name="hiragana_I">い</string>
+    <string name="hiragana_U">う</string>
+    <string name="hiragana_E">え</string>
+    <string name="hiragana_O">お</string>
+
+    <string name="hiragana_KA">か</string>
+    <string name="hiragana_KI">き</string>
+    <string name="hiragana_KU">く</string>
+    <string name="hiragana_KE">け</string>
+    <string name="hiragana_KO">こ</string>
+
+
+    <string name="hiragana_SA">さ</string>
+    <string name="hiragana_SHI">し</string>
+    <string name="hiragana_SU">す</string>
+    <string name="hiragana_SE">せ</string>
+    <string name="hiragana_SO">そ</string>
+
+
+    <string name="hiragana_TA">た</string>
+    <string name="hiragana_CHI">ち</string>
+    <string name="hiragana_TSU">つ</string>
+    <string name="hiragana_TE">て</string>
+    <string name="hiragana_TO">と</string>
+
+    <string name="hiragana_NA">な</string>
+    <string name="hiragana_NI">に</string>
+    <string name="hiragana_NU">ぬ</string>
+    <string name="hiragana_NE">ね</string>
+    <string name="hiragana_NO">の</string>
+
+    <string name="hiragana_HA">は</string>
+    <string name="hiragana_HI">ひ</string>
+    <string name="hiragana_FU">ふ</string>
+    <string name="hiragana_HE">へ</string>
+    <string name="hiragana_HO">ほ</string>
+
+    <string name="hiragana_MA">ま</string>
+    <string name="hiragana_МI">み</string>
+    <string name="hiragana_MU">む</string>
+    <string name="hiragana_ME">め</string>
+    <string name="hiragana_MO">も</string>
+
+    <string name="hiragana_YA">や</string>
+    <string name="hiragana_YU">ゆ</string>
+    <string name="hiragana_YO">よ</string>
+
+    <string name="hiragana_RA">ら</string>
+    <string name="hiragana_RI">り</string>
+    <string name="hiragana_RU">る</string>
+    <string name="hiragana_RE">れ</string>
+    <string name="hiragana_RO">ろ</string>
+
+    <string name="hiragana_WA">わ</string>
+    <string name="hiragana_WO">を</string>
+
+    <string name="hiragana_N">ん</string>
+    <string name="title_activity_hiraga_drawer">HiragaDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

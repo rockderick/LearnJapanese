@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:rowCount="12">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:id="@+id/linearLayout">
+
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/vocal_A"
+                android:textAllCaps="false"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/vocal_I"
+                android:textAllCaps="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:enabled="false"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/vocal_U"
+                android:textAllCaps="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:enabled="false"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/vocal_E"
+                android:textAllCaps="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:enabled="false"
+                />
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/vocal_O"
+                android:textAllCaps="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:enabled="false"
+                android:onClick="showQuickReference"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_column="0"
+       android:layout_row="1"
+       >
+
+       <Button
+
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="＊"
+           android:enabled="false"
+           style="@style/Widget.AppCompat.Button.Borderless"
+
+           />
+
+       <Button
+           android:id="@+id/hiragana_A"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="@string/hiragana_A"
+           android:onClick="showQuickReference"
+           />
+
+       <Button
+           android:id="@+id/hiragana_I"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="@string/hiragana_I"
+           android:onClick="showQuickReference"
+           />
+
+       <Button
+           android:id="@+id/hiragana_U"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="@string/hiragana_U"
+           android:onClick="showQuickReference"
+           />
+
+       <Button
+           android:id="@+id/hiragana_E"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="@string/hiragana_E"
+           android:onClick="showQuickReference"
+           />
+
+       <Button
+           android:id="@+id/hiragana_O"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="@string/hiragana_O"
+           android:onClick="showQuickReference"
+           />
+
+
+
+
+
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2">
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/consonant_K"
+            android:textAllCaps="false"
+            android:enabled="false"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+            />
+
+        <Button
+            android:id="@+id/hiragana_KA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hiragana_KA"
+            android:onClick="showQuickReference"
+            />
+
+        <Button
+            android:id="@+id/hiragana_KI"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hiragana_KI"
+            android:onClick="showQuickReference"
+            />
+
+        <Button
+            android:id="@+id/hiragana_KU"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hiragana_KU"
+            android:onClick="showQuickReference"
+            />
+
+        <Button
+            android:id="@+id/hiragana_KE"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hiragana_KE"
+            android:onClick="showQuickReference"
+            />
+
+        <Button
+            android:id="@+id/hiragana_KO"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hiragana_KO"
+            android:onClick="showQuickReference"
+            />
+
+     </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3">
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/consonant_S"
+                android:textAllCaps="false"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+                android:id="@+id/hiragana_SA"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_SA"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_SHI"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_SHI"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_SU"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_SU"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_SE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_SE"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_SO"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_SO"
+                android:onClick="showQuickReference"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4">
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/consonant_T"
+                android:textAllCaps="false"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+                android:id="@+id/hiragana_TA"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_TA"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_CHI"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_CHI"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_TSU"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_TSU"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_TE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_TE"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_TO"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_TO"
+                android:onClick="showQuickReference"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="5">
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/consonant_N"
+                android:textAllCaps="false"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+                android:id="@+id/hiragana_NA"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_NA"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_NI"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_NI"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_NU"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_NU"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_NE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_NE"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_NO"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_NO"
+                android:onClick="showQuickReference"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="6">
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/consonant_H"
+                android:textAllCaps="false"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+                android:id="@+id/hiragana_HA"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_HA"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_HI"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_HI"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_FU"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_FU"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_HE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_HE"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_HO"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_HO"
+                android:onClick="showQuickReference"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="7">
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/consonant_H"
+                android:textAllCaps="false"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+                android:id="@+id/hiragana_MA"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_MA"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_MI"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_МI"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_MU"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_MU"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_ME"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_ME"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_MO"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_MO"
+                android:onClick="showQuickReference"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="8">
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/consonant_Y"
+                android:textAllCaps="false"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+                android:id="@+id/hiragana_YA"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_YA"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_YU"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_YU"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_YO"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_YO"
+                android:onClick="showQuickReference"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="9">
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/consonant_R"
+                android:textAllCaps="false"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+                android:id="@+id/hiragana_RA"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_RA"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_RI"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_RI"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_RU"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_RU"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_RE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_RE"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_RO"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_RO"
+                android:onClick="showQuickReference"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="10">
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/consonant_W"
+                android:textAllCaps="false"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+                android:id="@+id/hiragana_WA"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_WA"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:id="@+id/hiragana_WO"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_WO"
+                android:onClick="showQuickReference"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="11">
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/consonant_NN"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+
+                />
+
+            <Button
+                android:id="@+id/hiragana_N"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hiragana_N"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="showQuickReference"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:onClick="showQuickReference"
+                />
+
+        </LinearLayout>
+
+
+
+    </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
