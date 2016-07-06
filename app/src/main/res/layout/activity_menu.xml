@@ -6,12 +6,26 @@
     android:orientation="vertical"
     tools:context="com.example.android.learnjapanese.MenuActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ひらがな"
+        android:textSize="60dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/textView" />
 
      <Button
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hiragana"
+         android:gravity="center"
+         android:layout_marginRight="24dp"
+         android:layout_marginLeft="24dp"
+         android:layout_marginBottom="8dp"
+         android:textColor="@color/white"
         android:onClick="learnHiragana"/>
 
 
@@ -19,6 +33,11 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"
         android:text="Quiz"
         />
 
@@ -27,6 +46,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Referencia Rápida"
+        android:gravity="center"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"
         android:onClick="quickReference"
         />
 
@@ -34,6 +58,11 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:textColor="@color/white"
         android:text="Acerca de"
         />
 
