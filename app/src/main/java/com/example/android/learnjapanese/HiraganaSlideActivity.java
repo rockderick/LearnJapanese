@@ -60,7 +60,6 @@ public class HiraganaSlideActivity extends FragmentActivity {
             character= hiraganaList.getHiraganaList().get(i);
             mPagerAdapter.addFragment(HiraganaSlidePageFragment.newInstance(i,character.getReading(),character.getImage(),
             character.getNmemonic(),character.getSound()));
-
         }
 
 

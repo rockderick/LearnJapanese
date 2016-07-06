@@ -77,7 +77,20 @@
     <string name="hiragana_WO">を</string>
 
     <string name="hiragana_N">ん</string>
-    <string name="title_activity_hiraga_drawer">HiragaDrawer</string>
+
+    <string name="A_0">A(あ〜)</string>
+    <string name="KA_K0">KA(か〜)</string>
+    <string name="SA_S0">SA(さ〜)</string>
+    <string name="TA_T0">TA(た〜)</string>
+    <string name="NA_N0">NA(な〜)</string>
+    <string name="HA_H0">HA(は〜)</string>
+    <string name="MA_M0">MA(ま〜)</string>
+    <string name="YA_Y0">YA(や〜)</string>
+    <string name="RA_R0">RA(ら〜)</string>
+    <string name="WA_W0">WA(わ〜)</string>
+    <string name="N">N(ん)</string>
+
+    <string name="title_activity_hiraga_drawer">Aprende Hiragana</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

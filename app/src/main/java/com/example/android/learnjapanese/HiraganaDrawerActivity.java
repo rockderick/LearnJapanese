@@ -6,7 +6,9 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -124,21 +126,35 @@ public class HiraganaDrawerActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        if (id == R.id.a_o) {
+            mPager.setCurrentItem(0);
+        } else if (id == R.id.ka_ko) {
+            mPager.setCurrentItem(5);
+        } else if (id == R.id.sa_so) {
+            mPager.setCurrentItem(10);
+        } else if (id == R.id.ta_to) {
+            mPager.setCurrentItem(15);
+        } else if (id == R.id.na_no) {
+            mPager.setCurrentItem(20);
+        } else if (id == R.id.ha_ho) {
+            mPager.setCurrentItem(25);
+        } else if (id == R.id.ma_mo) {
+            mPager.setCurrentItem(30);
+        } else if (id == R.id.ya_yo) {
+            mPager.setCurrentItem(35);
+        } else if (id == R.id.ra_ro) {
+            mPager.setCurrentItem(38);
+        } else if (id == R.id.wa_wo) {
+            mPager.setCurrentItem(43);
+        } else if (id == R.id.n) {
+            mPager.setCurrentItem(45);
         }
+
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

@@ -3,21 +3,52 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/a_o"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/A_0" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/ka_ko"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/KA_K0" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/sa_so"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/SA_S0" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/ta_to"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/TA_T0" />
+        <item
+            android:id="@+id/na_no"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/NA_N0" />
+        <item
+            android:id="@+id/ha_ho"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/HA_H0" />
+        <item
+            android:id="@+id/ma_mo"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/MA_M0" />
+        <item
+            android:id="@+id/ya_yo"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/YA_Y0" />
+
+        <item
+            android:id="@+id/ra_ro"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/RA_R0" />
+        <item
+            android:id="@+id/wa_wo"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/WA_W0" />
+
+        <item
+            android:id="@+id/n"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/N" />
+
     </group>
 
     <item android:title="Communicate">
