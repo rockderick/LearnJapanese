@@ -20,6 +20,7 @@
         <activity android:name=".HiraganaActivity" />
         <activity android:name=".HiraganaSlideActivity" />
         <activity android:name=".HiraganaTableActivity" />
+        <activity android:name=".HiraganaListActivity" />
         <activity
             android:name=".HiraganaDrawerActivity"
             android:label="@string/title_activity_hiraga_drawer"

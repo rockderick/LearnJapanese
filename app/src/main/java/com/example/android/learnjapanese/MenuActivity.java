@@ -16,12 +16,11 @@ public class MenuActivity extends AppCompatActivity {
 
 
     public void learnHiragana(View view){
-        startActivity(new Intent(this, HiraganaSlideActivity.class));
-        //startActivity(new Intent(this, HiraganaActivity.class));
+        startActivity(new Intent(this, HiraganaDrawerActivity.class));
     }
 
     public void quickReference(View view){
-        startActivity(new Intent(this, HiraganaDrawerActivity.class));
-        //startActivity(new Intent(this, HiraganaActivity.class));
+        //startActivity(new Intent(this, HiraganaTableActivity.class));
+        startActivity(new Intent(this, HiraganaListActivity.class));
     }
 }
