@@ -24,7 +24,10 @@
         <activity
             android:name=".HiraganaDrawerActivity"
             android:label="@string/title_activity_hiraga_drawer"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:label="Test de Pronunciación"
+            android:name=".PronounceTestActivity"></activity>
     </application>
 
 </manifest>

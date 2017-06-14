@@ -97,5 +97,8 @@
 
     <string name="action_settings">Settings</string>
 
+    <!---Strings for Pronounce Test-->
+    <string name="correct">Correctas</string>
+    <string name="incorrect">Incorrectas</string>
 
 </resources>
